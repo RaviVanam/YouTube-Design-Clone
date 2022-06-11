@@ -1,0 +1,39 @@
+.main-body {
+    display: flex;
+    height: 100%;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    background-color: rgb(32, 32, 32);
+    min-width: 240px;
+    /* border:2px solid red; */
+    border:2px solid rgb(32, 32, 32);
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.left-panel:hover {
+    overflow-y: scroll;
+}
+
+.left-panel-button {
+    display: flex;
+    background-color: rgb(56,56,56);
+    /* border: 2px solid green; */
+    min-height: 40px;
+    width: 222px;
+    min-width: 222px;
+    max-width: 222px;
+}
+
+.left-panel-button:first-child {
+    margin-top: 7px;
+}
+
+.videos-panel {
+    background-color: rgb(56,56,56);
+    width: 100%;
+}
