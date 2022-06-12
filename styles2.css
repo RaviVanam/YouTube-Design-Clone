@@ -1,8 +1,10 @@
 .main-body {
     flex: 1;
     display: flex;
-    /* border: 2px solid green; */
+    width: 100%;
+    /* border: 5px solid green; */
     overflow-y: hidden;
+    overflow-x: hidden;
     /* height: 100%; */
 }
 
@@ -108,9 +110,4 @@
 .left-panel-footer > span {
     color: rgb(120, 120,120);
     font-size: small;
-}
-
-.videos-panel {
-    background-color: rgb(56,56,56);
-    width: 100%;
 }

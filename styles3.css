@@ -1,0 +1,36 @@
+.main-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    background-color: rgb(32, 32, 32);
+    overflow-y: hidden;
+    /* border: 3px solid red; */
+}
+
+.catagory-bar {
+    margin-left: 5px;
+    min-height: 50px;
+    border: 1px solid rgb(70, 70 ,70);
+    border-left: none;
+    border-right: none;
+}
+
+.videos-panel {
+    flex: 1;
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+    background-color: rgb(18, 18, 18);
+    overflow-y: scroll;
+    /* border: 3px solid red; */
+}
+
+.videos-panel-section {
+    margin-top: 10px;;
+    margin-right: 20px;
+    margin-left: 5px;
+    min-height: 50px;
+    /* background-color: greenyellow; */
+    border: 5px solid cyan;
+}
