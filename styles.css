@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
+  /* border: 2px solid cyan; */
 }
 /* nav bar */
 .navbar {
