@@ -76,12 +76,13 @@ body {
   display: flex;
   align-items: center;
   flex: 1;
-  min-width: 30px;
+  min-width: 60px;
   background-color: rgb(32,32,32);
 }
 
 .search-field {
   flex: 8;
+  min-width: 20px;
   background-color: rgb(18,18,18);
   height: 35px;
   margin-left: 5px;
